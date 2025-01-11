@@ -33,7 +33,7 @@ The [configuration files](config) in the base folder are provided as an example.
 ## Acknowledgements
 
 Special thanks to SkiBike for the [Filamentalist](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder) design and to ArmoredTurtle for the [BoxTurtle](https://github.com/ArmoredTurtle/BoxTurtle) design, both of which inspired this project.
-I also thank Dien who helped me with the publication here on GitHub
+I also thank Diem who helped me with the publication here on GitHub
 
 
 
