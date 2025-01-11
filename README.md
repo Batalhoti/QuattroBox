@@ -6,7 +6,7 @@
 
 # Description
 
-This project is inspired by the Filamentalis and the TurtleBox, using four modified Filamentalists, each equipped with an independent extruder. The extruders are slightly inclined to optimize the filament path.
+This project is inspired by the Filamentalis and the BoxTurtle, using four modified Filamentalists, each equipped with an independent extruder. The extruders are slightly inclined to optimize the filament path.
 
 The extruder design allows for the use of either NEMA 17 or NEMA 14 motors. However, I have achieved better results with the NEMA 17, so the choice is yours.
 
