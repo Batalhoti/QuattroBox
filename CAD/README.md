@@ -1,0 +1,1 @@
+***This project was designed using 3ds Max. The STEP file contains meshes***
