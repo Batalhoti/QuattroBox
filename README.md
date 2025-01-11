@@ -14,17 +14,26 @@ The system includes a Y-splitter with a switch and a Binky encoder. Each lane ha
 
 The logo features an LED strip that shows the MMU status (load, unload, and the color of the loaded filament). The entire design is 3D printed, eliminating the need for aluminum extrusions.
 
+The [configuration files](config) in the base folder are provided as an example. Under no circumstances should you replace them with your own files, as they contain your printer's specific configurations
 
 # **[BOM](./BOM.md)**
 
 
 # **[MANUAL](./MANUAL.md)**
 
+## My build
 
+[VIDEO 1](https://photos.app.goo.gl/y86quBDpxgd3wVg19)
+
+[VIDEO 2](https://photos.app.goo.gl/qtu92ND3gbf3hNFr5)
+
+<p align="center"><img src=./Images/20241229_232832.jpg width="600"</p>
+<p align="center"><img src=./Images/20241229_232458.jpg width="600"</p>
 
 ## Acknowledgements
 
 Special thanks to SkiBike for the [Filamentalist](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder) design and to ArmoredTurtle for the [BoxTurtle](https://github.com/ArmoredTurtle/BoxTurtle) design, both of which inspired this project.
+I also thank Dien who helped me with the publication here on GitHub
 
 
 
