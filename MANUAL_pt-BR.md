@@ -49,7 +49,7 @@ Insira os 6 heat inserts na peça [Encoder_bottom](STLs/encoder/[a]_Encoder_bott
 Na peça [Encoder_top](STLs/encoder/[a]_Encoder_top.stl):
 
 - **Rosa**: Rolamento V623 com parafuso M3x10 BHCS
-- **Laranja**: Rodinha Binky. Se tiver dúvidas, consulte o manual do ERCFv2 na página 95.
+- **Laranja**: Rodinha Binky. Se tiver dúvidas, consulte o [manual do ERCFv2](https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/master/Documentation/ERCF_v2_Manual.pdf) na página 95.
 - **Vermelho**: Esfera de 4mm
 - **Verde**: Monte o switch D2F-L com 2 parafusos M2X10 BHCS
 - **Azul**: Coloque os ECAS

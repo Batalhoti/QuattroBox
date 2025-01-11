@@ -49,7 +49,7 @@ Insert the 6 heat inserts into the [Encoder_bottom](STLs/encoder/[a]_Encoder_bot
 In the [Encoder_top](STLs/encoder/[a]_Encoder_top.stl) piece:
 
 - **Pink**: V623 bearing with M3x10 BHCS screw
-- **Orange**: Binky wheel. If in doubt, refer to the ERCFv2 manual on page 95.
+- **Orange**: Binky wheel. If in doubt, refer to the [ERCFv2 manual](https://github.com/Enraged-Rabbit-Community/ERCF_v2/blob/master/Documentation/ERCF_v2_Manual.pdf) on page 95.
 - **Red**: 4mm ball
 - **Green**: Mount the D2F-L switch with 2 M2X10 BHCS screws
 - **Blue**: Insert the ECAS
