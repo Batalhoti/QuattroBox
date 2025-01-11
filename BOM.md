@@ -5,7 +5,7 @@
 | 4x | M3x3x5 (from box) Heat inserts | [Link](https://s.click.aliexpress.com/e/_Dlbxbl9) |
 | 60x | M3x4x5 Heat inserts | [Link](https://s.click.aliexpress.com/e/_Dlbxbl9) |
 | 35x | M2x10 BHCS | [Link](https://pt.aliexpress.com/item/1005003671406193.html) |
-| 4x | M3x16 BHCS | [Link](https://pt.aliexpress.com/item/32810852732.html) |
+|8x | M3x16 BHCS | [Link](https://pt.aliexpress.com/item/32810852732.html) |
 | 12x | M3x6 BHCS | [Link](https://pt.aliexpress.com/item/32810852732.html) |
 | 12x | M3x8 BHCS | [Link](https://pt.aliexpress.com/item/32810852732.html) |
 | 12x | M3x10 BHCS | [Link](https://pt.aliexpress.com/item/32810852732.html) |
@@ -16,7 +16,6 @@
 | 24x | M3x10 FHCS | [Link](https://s.click.aliexpress.com/e/_DdSsyrV) |
 | 20x | M3x16 FHCS | [Link](https://s.click.aliexpress.com/e/_DdSsyrV) |
 | 1x | M3x12 SHCS | [Link](https://pt.aliexpress.com/item/32810872544.html) |
-| 4x | M3x16 SHCS | [Link](https://pt.aliexpress.com/item/32810872544.html) |
 | 12x | M3 washer | |
 | 4x | 8mmx88mm shaft | [Link](https://s.click.aliexpress.com/e/_DFwKCvd) |
 | 600mm | PTFE 3x4mm | [Link](https://pt.aliexpress.com/item/1005001408141263.html) |
@@ -26,17 +25,17 @@
 | 20x | 608zz Bearing | [Link](https://pt.aliexpress.com/item/1005005538086225.html) |
 | 4x | HF081412 Bearing | [Link](https://s.click.aliexpress.com/e/_DFUtQxt) |
 | 5x | BMG with screws | [Link](https://www.aliexpress.com/item/1005007720655144.html) |
-| 4x | 17t gear (if to use nema17) | [Link](https://www.aliexpress.com/item/1005007371131541.html) |
 | 4x | 13x10x7 Foot | [Link](https://www.aliexpress.com/item/1005006948234699.html) |
 | 9x | ECAS | [Link](https://s.click.aliexpress.com/e/_Dl4MKA7) |
 | 8x | O'ring 28x20x4mm | [Link](https://pt.aliexpress.com/item/32913536944.html) |
-| 20mmx1mmx5m | EVA Foam | [Link](https://s.click.aliexpress.com/e/_DEzRdkn) |
+| 20mmx1mmx5m | EVA Foam | [Link](https://pt.aliexpress.com/item/1005005342573383.html) |
 | 1x | BTT MMB | [Link](https://pt.aliexpress.com/item/1005005969840733.html) |
-| 4x | D2F Switch | [Link](https://s.click.aliexpress.com/e/_DC1dYWx) |
-| 5x | D2F-L Switch | [Link](https://s.click.aliexpress.com/e/_DC1dYWx) |
+| 4x | D2F Switch | [Link](https://pt.aliexpress.com/item/1005006437071495.html) |
+| 5x | D2F-L Switch | [Link](https://pt.aliexpress.com/item/1005006437071495.html) |
 | 1x | Microfit plug Male and Female 4pin | [Link](https://s.click.aliexpress.com/e/_DBqRLOP) |
 | 1x | Binky | [Link](https://s.click.aliexpress.com/e/_Dn42v59) |
 | 175mm | WS2812B 2.7MM LED Strip | [Link](https://pt.aliexpress.com/item/1005006729284810.html) |
 | 4x | WS2812B RGBW neopixel LED | [Link](https://pt.aliexpress.com/item/32542223934.html) |
-| 4x | Stepper NEMA 14 (Optional) | [Link](https://pt.aliexpress.com/item/1005005933469472.html) |
-| 4x | Stepper NEMA 17 (17HS8401) (Optional) | [Link](https://s.click.aliexpress.com/e/_DDKmJ55) |
+| 4x | Stepper NEMA 14 | [Link](https://pt.aliexpress.com/item/1005005933469472.html) |
+| or|
+| 4x | Stepper NEMA 17 (17HS8401) | [Link](https://s.click.aliexpress.com/e/_DDKmJ55) |
