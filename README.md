@@ -14,7 +14,7 @@ The system includes a Y-splitter with a switch and a Binky encoder. Each lane ha
 
 The logo features an LED strip that shows the MMU status (load, unload, and the color of the loaded filament). The entire design is 3D printed, eliminating the need for aluminum extrusions.
 
-The [configuration files](config) in the base folder are provided as an example. Under no circumstances should you replace them with your own files, as they contain your printer's specific configurations
+The [configuration files](config) in the base folder are provided as an example. Under no circumstance should you replace your own files with these, as they contain your printer's specific configurations
 
 # **[BOM](./BOM.md)**
 
@@ -36,6 +36,11 @@ Special thanks to SkiBike for the [Filamentalist](https://github.com/Enraged-Rab
 I also thank Diem who helped me with the publication here on GitHub
 
 
+## Change log
+
+01-13-2025
+• Extruder update
+• Update CAD
 
 
 
