@@ -16,8 +16,16 @@ The logo features an LED strip that shows the MMU status (load, unload, and the 
 
 The [configuration files](config) in the base folder are provided as an example. Under no circumstance should you replace your own files with these, as they contain your printer's specific configurations
 
-# **[BOM](./BOM.md)**
 
+##
+
+I have a Discord channel on [HappyHare](https://discord.gg/pGSMCnBXc7), feel free to ask your questions and give suggestions
+
+E se voce é brasileiro tenho um canal no servidor da [Orion 3D](https://discord.gg/Ap2ZFJXG7s)
+
+##
+
+# **[BOM](./BOM.md)**
 
 # **[MANUAL](./MANUAL.md)**
 
@@ -29,6 +37,7 @@ The [configuration files](config) in the base folder are provided as an example.
 
 <p align="center"><img src=./Images/20241229_232832.jpg width="600"</p>
 <p align="center"><img src=./Images/20241229_232458.jpg width="600"</p>
+<p align="center"><img src=./Images/20250113_141719.jpg width="600"</p>
 
 ## Acknowledgements
 
@@ -39,8 +48,15 @@ I also thank Diem who helped me with the publication here on GitHub
 ## Change log
 
 01-13-2025
+
 • Extruder update
+
 • Update CAD
 
+01-15-2025
 
+• Update box (only a few details, if you have already printed it, no need to reprint)
 
+• Box divided into 4 parts for those with printers smaller than 300mm
+
+• Update of 'tensioner_mount_load' the wire path has been increased
