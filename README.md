@@ -49,14 +49,34 @@ I also thank Diem who helped me with the publication here on GitHub
 
 01-13-2025
 
-• Extruder update
+* Extruder update
 
-• Update CAD
+* Update CAD
 
 01-15-2025
 
-• Update box (only a few details, if you have already printed it, no need to reprint)
+* Update box (only a few details, if you have already printed it, no need to reprint)
 
-• Box divided into 4 parts for those with printers smaller than 300mm
+* Box divided into 4 parts for those with printers smaller than 300mm
 
-• Update of 'tensioner_mount_load' the wire path has been increased
+* Update of 'tensioner_mount_load' the wire path has been increased
+
+01-30-2025
+
+* New CAD file, completely redone in Fusion
+
+* New STLs (The old STL files are not compatible with the new version) 
+
+* Option to assemble with 623zz bearing instead of BMG
+
+* The box is 8mm smaller
+
+* The box cover, now divided into 2 parts, is compatible with the box divided into 2 and 4 parts
+
+* 2 logo options: one for printing with MMU (recommended) and another with separate files
+
+* Filamentalist parts and box with identifications to facilitate assembly, thanks to Sinister for the tip
+
+* Button with a hole to adjust the Filamentalist, thanks to Ultra for the tip
+
+* All parts are compatible with 255mm printers
