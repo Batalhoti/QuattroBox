@@ -77,6 +77,6 @@ I also thank Diem who helped me with the publication here on GitHub
 
 * Filamentalist parts and box with identifications to facilitate assembly, thanks to Sinister for the tip
 
-* Button with a hole to adjust the Filamentalist, thanks to Ultra for the tip
+* Button with a hole to adjust the Filamentalist, thanks to Ulta for the tip
 
 * All parts are compatible with 255mm printers
