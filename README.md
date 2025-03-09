@@ -80,3 +80,13 @@ I also thank Diem who helped me with the publication here on GitHub
 * Button with a hole to adjust the Filamentalist, thanks to Ulta for the tip
 
 * All parts are compatible with 255mm printers
+
+03-09-2025
+
+* Latch and Extruder Corrections
+
+    * Latch: new support, extension of the shaft lock
+
+    * Extruder: detail for fitting the new latch, improvements in the ECAS outlet, and extended shaft channel for nema 17
+
+* CAD updated
