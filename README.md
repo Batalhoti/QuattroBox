@@ -90,3 +90,25 @@ I also thank Diem who helped me with the publication here on GitHub
     * Extruder: detail for fitting the new latch, improvements in the ECAS outlet, and extended shaft channel for nema 17
 
 * CAD updated
+
+03-30-2025
+
+* The extruder switch and encoder do not need to be soldered. Simply crimp the wires into a 5-pin JST connector
+
+* Improved the fitting of the ECAS encoder
+
+* New design for the Tensioner Arm
+
+* The button now needs to be inserted before positioning the Filamentalist in the box to ensure a more efficient fit
+
+* Added an extra LED on the Tensioner Mount to illuminate the filament. Thanks to Diem for the idea!
+
+* Adjusted the box supports due to issues reported by some users
+
+* Text on the bases of the Filamentalist
+
+* Change in the MMB mounting method, making it easier to route the wires
+
+* Added the MMB v2.0 mount
+
+* CAD updated
