@@ -47,13 +47,13 @@ I also thank Diem who helped me with the publication here on GitHub
 
 ## Change log
 
-01-13-2025
+### v0.1  -  01-13-2025
 
 * Extruder update
 
 * Update CAD
 
-01-15-2025
+### v0.01 - 01-15-2025
 
 * Update box (only a few details, if you have already printed it, no need to reprint)
 
@@ -61,7 +61,7 @@ I also thank Diem who helped me with the publication here on GitHub
 
 * Update of 'tensioner_mount_load' the wire path has been increased
 
-01-30-2025
+### v1.0 - 01-30-2025
 
 * New CAD file, completely redone in Fusion
 
@@ -81,7 +81,7 @@ I also thank Diem who helped me with the publication here on GitHub
 
 * All parts are compatible with 255mm printers
 
-03-09-2025
+### v1.01 - 03-09-2025
 
 * Latch and Extruder Corrections
 
@@ -91,7 +91,7 @@ I also thank Diem who helped me with the publication here on GitHub
 
 * CAD updated
 
-03-30-2025
+### v1.1 - 03-30-2025
 
 * The extruder switch and encoder do not need to be soldered. Simply crimp the wires into a 5-pin JST connector
 
