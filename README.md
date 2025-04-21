@@ -112,3 +112,7 @@ I also thank Diem who helped me with the publication here on GitHub
 * Added the MMB v2.0 mount
 
 * CAD updated
+
+### v1.1.1 - 04-20-2025
+
+* Enclosure
