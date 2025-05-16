@@ -61,7 +61,9 @@ PTFE measurements for this extruder, use the [PTFE Tools](STLs/tools/PTFE_Tools.
     * 116mm  
 
 
-## Buttons
+# Wires
+
+### Buttons
 
 Wire measurements for connecting the button switches, considering the central board assembly (as in the CAD)
 
@@ -73,7 +75,7 @@ Wire measurements for connecting the button switches, considering the central bo
 
 * LANE 3 = 380mm
 
-## LEDs
+### LEDs
 
 * LED order:
 
@@ -87,7 +89,7 @@ Wire measurements for connecting the button switches, considering the central bo
 
 * To facilitate [LED soldering](STLs/tools/LED_Soldering_Tool.stl), there is a jig to help with this
 
-## Switch Extruders
+### Switch Extruders
 
 * LANE 0 = 360mm
 
@@ -97,10 +99,20 @@ Wire measurements for connecting the button switches, considering the central bo
 
 * LANE 3 = 360mm
 
-## Hub and Encoder 
+### Steppers
+
+* LANE 0 = 320mm
+
+* LANE 1 = 250mm
+
+* LANE 2 = 250mm
+
+* LANE 3 = 320mm
+
+### Hub and Encoder 
 
 * 640mm
 
-## Connector
+### Connector
 
 * Canbus and USB = 450mm
