@@ -1,6 +1,6 @@
 # QuattroBox
 
-<p align="center"><img src=./Images/QuattroBox_View02.jpg width="600"</p>
+<p align="center"><img src=./Images/QuattroBox_V1_View02.jpg width="600"</p>
 <p align="center"><img src=./Images/QuattroBox_View01.jpg width="600"</p>
 <p align="center"><img src=./Images/QuattroBox_View04.jpg width="600"</p>
 
@@ -14,20 +14,13 @@ The system includes a Y-splitter with a switch and a Binky encoder. Each lane ha
 
 The logo features an LED strip that shows the MMU status (load, unload, and the color of the loaded filament). The entire design is 3D printed, eliminating the need for aluminum extrusions.
 
-The [configuration files](config) in the base folder are provided as an example. Under no circumstance should you replace your own files with these, as they contain your printer's specific configurations
-
-
 ##
 
 I have a Discord channel on [HappyHare](https://discord.gg/pGSMCnBXc7), feel free to ask your questions and give suggestions
 
 E se voce é brasileiro tenho um canal no servidor da [Orion 3D](https://discord.gg/Ap2ZFJXG7s)
 
-##
-
-# **[BOM](./BOM.md)**
-
-# **[MANUAL](./MANUAL.md)**
+## [BOM](https://docs.google.com/spreadsheets/d/1ZGWbCGkhVMlmwFGOrBHsaueacvJPoY3-_0yoh2NZEvQ/edit?usp=sharing)
 
 ## My build
 
@@ -38,6 +31,8 @@ E se voce é brasileiro tenho um canal no servidor da [Orion 3D](https://discord
 <p align="center"><img src=./Images/20241229_232832.jpg width="600"</p>
 <p align="center"><img src=./Images/20241229_232458.jpg width="600"</p>
 <p align="center"><img src=./Images/20250113_141719.jpg width="600"</p>
+<p align="center"><img src=./Images/20250420_183852.jpg width="600"</p>
+<p align="center"><img src=./Images/20250420_183925.jpg width="600"</p>
 
 ## Acknowledgements
 
@@ -116,3 +111,46 @@ I also thank Diem who helped me with the publication here on GitHub
 ### v1.1.1 - 04-20-2025
 
 * Enclosure
+
+### v1.2 - 05-16-2025
+
+* Extruders with 2 switches  
+
+* 3 extruder options  
+
+    * With BMG reduction, stepper nema 17  
+    * With BMG reduction, stepper nema 14  
+    * Without reduction, stepper nema 17 pancake  
+
+* All extruders have a latch with an option to use a 623 bearing instead of the BMG idler (I recommend using the bearing, it makes it quieter)  
+
+* Filamentalist wheel and base have been modified to accommodate an 80mm shaft  
+
+* Added a small plug at the connection between the extruder and filamentalist to facilitate extruder installation  
+
+* Right-side box modified to accommodate new connector  
+
+* Connector for CAN bus (supports connecting 2 CAN buses) and USB  
+
+* Changed the name "Encoder" to "Hub"  
+
+* 2 hub options  
+
+    * Hub with encoder  
+    * Hub without encoder  
+
+* Hub now uses a 623 bearing instead of a 4mm ball  
+
+* Added places to secure wires on the button  
+
+* Logo uses heat inserts  
+
+* Jig for cutting PTFE  
+
+* Jig for soldering LED wires
+
+* Assembly tips
+
+* Updated BOM  
+
+* Updated CAD  
