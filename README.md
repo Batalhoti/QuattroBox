@@ -124,7 +124,7 @@ I also thank Diem who helped me with the publication here on GitHub
 
 * All extruders have a latch with an option to use a 623 bearing instead of the BMG idler (I recommend using the bearing, it makes it quieter)  
 
-* Filamentalist wheel and base have been modified to accommodate an 80mm shaft  
+* The Filamentalist wheel and base have been modified to accommodate an 80mm shaft, and a spot has been added to place M3 nuts 
 
 * Added a small plug at the connection between the extruder and filamentalist to facilitate extruder installation  
 
