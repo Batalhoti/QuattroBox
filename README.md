@@ -6,13 +6,27 @@
 
 # Description
 
-This project is inspired by the Filamentalis and the BoxTurtle, using four modified Filamentalists, each equipped with an independent extruder. The extruders are slightly inclined to optimize the filament path.
+This project is inspired by the **Filamentalis** and **BoxTurtle**, combining ideas from both to create a robust multi-material system. It uses four modified Filamentalists, each equipped with an independent extruder slightly inclined to optimize the filament path.
 
-The extruder design allows for the use of either NEMA 17 or NEMA 14 motors. However, I have achieved better results with the NEMA 17, so the choice is yours.
+The extruder design supports both NEMA 17 and NEMA 14 stepper motors. While both are compatible, better results have been achieved with NEMA 17 motors, the choice is yours.
 
-The system includes a Y-splitter with a switch and a Binky encoder. Each lane has status LEDs to monitor each filament, and a filament eject button makes it easy to remove the material.
+### Key Features
 
-The logo features an LED strip that shows the MMU status (load, unload, and the color of the loaded filament). The entire design is 3D printed, eliminating the need for aluminum extrusions.
+- **Two types of extruders available**:
+  - **With BMG reduction**, compatible with NEMA 14 and NEMA 17 stepper motors
+  - **Without reduction** using NEMA 17 pancake stepper motors  
+- **Filament hub** with two options:
+  - **With Binky encoder** for precise filament positioning
+  - **Without encoder**, for a simpler and more cost-effective solution  
+- **Status LEDs** on each filament lane to indicate activity  
+- **Dedicated illumination for the filament path** to assist during loading and operation  
+- **Filament eject button** for quick material changes  
+- **LED strip on the logo**, showing MMU status (loading, unloading, and active filament color)  
+- **Filament enclosure**, protecting spools from dust and humidity, keeping materials in optimal condition  
+- Fully **3D printed structure** – no aluminum extrusions required  
+- Compatible with [**Happy Hare**](https://github.com/moggieuk/Happy-Hare/wiki) for MMU control  
+
+The project uses accessible components, open-source technology, and a modular, customizable design.
 
 ##
 
