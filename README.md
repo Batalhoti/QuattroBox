@@ -134,7 +134,7 @@ I also thank Diem who helped me with the publication here on GitHub
 
     * With BMG reduction, stepper nema 17  
     * With BMG reduction, stepper nema 14  
-    * Without reduction, stepper nema 17 pancake  
+    * Without reduction, stepper nema 17 pancake (Thank you, igiannakas, for the suggestion of the extruder) 
 
 * All extruders have a latch with an option to use a 623 bearing instead of the BMG idler (I recommend using the bearing, it makes it quieter)  
 
