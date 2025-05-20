@@ -67,13 +67,13 @@ PTFE measurements for this extruder, use the [PTFE Tools](STLs/tools/PTFE_Tools.
 
 Wire measurements for connecting the button switches, considering the central board assembly (as in the CAD)
 
-* LANE 0 = 380mm 
+* LANE 0 = 390mm 
 
-* LANE 1 = 280mm 
+* LANE 1 = 290mm 
 
-* LANE 2 = 280mm
+* LANE 2 = 290mm
 
-* LANE 3 = 380mm
+* LANE 3 = 390mm
 
 ### LEDs
 
@@ -81,38 +81,38 @@ Wire measurements for connecting the button switches, considering the central bo
 
     * Button 0 > Filamentalist 0 > Button 1 > Filamentalist 1 > Button 2 > Filamentalist 2 > Button 3 > Filamentalist 3 > Logo
 
-* MCU to the first LED = 280mm  
+* MCU to the first LED = 290mm  
 
-* Button to Filamentalist = 170mm  
+* Button to Filamentalist = 190mm  
 
-* Filamentalist to button = 190mm (I recommend splitting this path and adding a JST specified in the BOM to facilitate assembly)
+* Filamentalist to button = 220mm (I recommend splitting this path and adding a JST specified in the BOM to facilitate assembly)
 
 * To facilitate [LED soldering](STLs/tools/LED_Soldering_Tool.stl), there is a jig to help with this
 
 ### Switch Extruders
 
-* LANE 0 = 360mm
+* LANE 0 = 370mm
 
-* LANE 1 = 230mm
+* LANE 1 = 240mm
 
-* LANE 2 = 230mm
+* LANE 2 = 240mm
 
-* LANE 3 = 360mm
+* LANE 3 = 370mm
 
 ### Steppers
 
-* LANE 0 = 320mm
+* LANE 0 = 330mm
 
-* LANE 1 = 250mm
+* LANE 1 = 260mm
 
-* LANE 2 = 250mm
+* LANE 2 = 260mm
 
-* LANE 3 = 320mm
+* LANE 3 = 330mm
 
 ### Hub and Encoder 
 
-* 640mm
+* 650mm
 
 ### Connector
 
-* Canbus and USB = 450mm
+* Canbus and USB = 460mm
