@@ -153,7 +153,7 @@ I also thank Diem who helped me with the publication here on GitHub
     * Hub with encoder  
     * Hub without encoder  
 
-* Hub now uses a 623 bearing instead of a 4mm ball  
+* Hub now uses a MR63 bearing instead of a 4mm ball  
 
 * Added places to secure wires on the button  
 
