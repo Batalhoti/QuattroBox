@@ -116,3 +116,15 @@ Wire measurements for connecting the button switches, considering the central bo
 ### Connector
 
 * Canbus and USB = 460mm
+
+
+# Pinout
+
+### MMB v1.0
+<p align="center"><img src=./Images/img_manual/MMB_V1.jpg width="600"</p>
+
+### MMB v1.1
+<p align="center"><img src=./Images/img_manual/MMB_V1.1.jpg width="600"</p>
+
+### MMB v2.0
+<p align="center"><img src=./Images/img_manual/MMB_V2.jpg width="600"</p>
