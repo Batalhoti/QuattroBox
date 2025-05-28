@@ -168,3 +168,8 @@ I also thank Diem who helped me with the publication here on GitHub
 * Updated BOM  
 
 * Updated CAD  
+
+
+### v1.2.1 - 05-28-2025
+
+* Support for mounting on the top of the printer with options for Monolith panel and Voron standard
