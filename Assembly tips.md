@@ -81,13 +81,11 @@ Wire measurements for connecting the button switches, considering the central bo
 
     * Button 0 > Filamentalist 0 > Button 1 > Filamentalist 1 > Button 2 > Filamentalist 2 > Button 3 > Filamentalist 3 > Logo
 
-* MCU to the first LED = 290mm  
+* MCU to the first LED = 390mm  
 
-* Button to Filamentalist = 190mm  
+* Button to Filamentalist = 180mm  
 
 * Filamentalist to button = 220mm (I recommend splitting this path and adding a JST specified in the BOM to facilitate assembly)
-
-* To facilitate [LED soldering](STLs/tools/LED_Soldering_Tool.stl), there is a jig to help with this
 
 ### Switch Extruders
 
