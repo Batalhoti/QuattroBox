@@ -173,3 +173,32 @@ I also thank Diem who helped me with the publication here on GitHub
 ### v1.2.1 - 05-28-2025
 
 * Support for mounting on the top of the printer with options for Monolith panel and Voron standard
+
+### v1.2.2 - 06-22-2025
+
+* Assembly manual added to support the build process
+
+* Updated buttons to avoid sharp edges on internal parts, improving fit and finish
+
+* Extruder updated with improved switch mounts for better triggering
+
+* Fixed incorrect label on the `Rear Left Top` part of the enclosure
+
+* Encoder adjusted to add more spring tension and tolerance, reducing print errors
+
+* Updated LED logo mount with a clear indicator for LED cable exit position
+
+* Revised cable channel for the LED logo wiring inside the box
+
+* Latch updated to use a 623 bearing for smoother operation
+
+* Added `axle_depth_tool` to assist with assembling the Filamentalis axle
+
+* Added `calibration_tool.stl` for tuning hole diameters and fits
+
+* Added `MR85 Insert` tool to help insert the MR85 bearing into the extruder
+
+* Updated `PTFE_Tools` for more precise PTFE tube cutting
+
+
+
