@@ -200,5 +200,11 @@ I also thank Diem who helped me with the publication here on GitHub
 
 * Updated `PTFE_Tools` for more precise PTFE tube cutting
 
+### v1.2.2.1 - 06-28-2025
+
+- Manual corrections
+  - Heatset Inserts
+  - Typo
+  - Button wire length
 
 
