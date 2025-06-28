@@ -34,7 +34,13 @@ I have a Discord channel on [HappyHare](https://discord.gg/pGSMCnBXc7), feel fre
 
 E se voce é brasileiro tenho um canal no servidor da [Orion 3D](https://discord.gg/Ap2ZFJXG7s)
 
-## [BOM](https://docs.google.com/spreadsheets/d/1ZGWbCGkhVMlmwFGOrBHsaueacvJPoY3-_0yoh2NZEvQ/edit?usp=sharing)
+## 
+
+[BOM](https://docs.google.com/spreadsheets/d/1ZGWbCGkhVMlmwFGOrBHsaueacvJPoY3-_0yoh2NZEvQ/edit?usp=sharing)
+
+If you want to buy the complete kit
+
+[SeleadLab (Affiliate Link)](https://s.click.aliexpress.com/e/_oE1aSL8)
 
 ## My build
 
