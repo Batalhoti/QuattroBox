@@ -213,4 +213,10 @@ I also thank Diem who helped me with the publication here on GitHub
   - Typo
   - Button wire length
 
+### v1.2.2.2 - 07-08-2025
+
+- Manual corrections
+  - Heat insert from Filamentalist
+  - Warning about motor shaft dimensions on extruder without gearbox
+  - Screws for the hub with encoder
 
