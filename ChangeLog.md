@@ -1,6 +1,13 @@
 ## Change log
 
-### v2 04-15-2026
+
+### v2.0.1 - 04-15-2026
+
+- Tensioner arm improvements, the filament used to jam on it when the endless spool was activated.
+- Adjustment to the central radius of the tensioner mount.
+- Filename correction for the top mount files
+
+### v2 - 04-15-2026
 
 - Adjustment of hub cable cover dimensions.  
 
