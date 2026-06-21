@@ -25,7 +25,6 @@ I kept as much compatibility as possible with components from the previous versi
 - Fully 3D printed structure (no aluminum extrusions required)
 - Mounting supports to rest the MMU on the printer’s top extrusions
 - Optimized for a 180 mm print area, with up to 142 mm height
-- Dedicated space for an RFID reader (under development)
 - Compatible with [**Happy Hare**](https://github.com/moggieuk/Happy-Hare/wiki) for MMU control 
 
 
@@ -51,9 +50,9 @@ E se voce é brasileiro tenho um canal no servidor da [Orion 3D](https://discord
 
 If you want to buy the complete kit
 
-[SeleadLab v1 (Affiliate Link)](https://s.click.aliexpress.com/e/_oE1aSL8)
+[SeleadLab v2 (Affiliate Link)](https://s.click.aliexpress.com/e/_c2JtqLK5)
 
-SeleadLab v2 Soon!
+[Trianglelab v2 (Affiliate Link)](https://s.click.aliexpress.com/e/_c4NRFI21)
 
 
 ## My build v1
@@ -75,4 +74,4 @@ Special thanks to SkiBike for the [Filamentalist](https://github.com/Enraged-Rab
 I also thank Diem who helped me with the publication here on GitHub
 
 
-### [Change log](CHANGE_LOG.md)
+### [Change log](ChangeLog.md)

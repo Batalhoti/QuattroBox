@@ -1,10 +1,41 @@
 ## Change log
 
 
+### v2.0.2 - 06-20-2026
+
+- Assembly manual.
+
+- Calibration tool revision for version 2
+
+- Added PCB for button and LED strip.
+
+- Labels to identify the lid parts.
+
+- Depth of the screws on the side lid 4 parts, thanks Atomique13.
+
+- Expanded LED tensioner mount housing to fit the LED strip PCB.
+
+- Adjustment of hub spring pressure.
+
+- Added parametric top mount.
+
+- Added servo tools.
+
+- Small adjustments in the box, removed some cable clip slots.
+
+- RFID support removed for now, will be added as an upgrade when ready.
+
+- Spelling corrections of some part names.
+
+- CAD update.
+
+
 ### v2.0.1 - 04-15-2026
 
 - Tensioner arm improvements, the filament used to jam on it when the endless spool was activated.
+
 - Adjustment to the central radius of the tensioner mount.
+
 - Filename correction for the top mount files
 
 ### v2 - 04-15-2026
