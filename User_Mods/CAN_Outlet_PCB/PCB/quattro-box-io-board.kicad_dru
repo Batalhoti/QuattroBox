@@ -1,0 +1,266 @@
+(version 1)
+# Custom Design Rules (DRC) for KiCad — JLCPCB: 1-2 layer, 1oz copper
+#
+# Matching JLCPCB capabilities: https://jlcpcb.com/capabilities/pcb-capabilities
+#
+# This is the '2L-1oz' variant. If your order differs, use one of
+# the other variants (4L-1oz, 4L-2oz, 6L-1oz) — see the README table.
+#
+# GENERATED FILE — do not edit by hand.
+# Edit capabilities/JLCPCB.toml and run tools/generate_dru.py instead.
+#
+# KiCad documentation: https://docs.kicad.org/8.0/en/pcbnew/pcbnew.html#custom-design-rules
+
+
+# --- Drill/Hole Size ---
+
+(rule "JLCPCB: Drill Hole Size"
+	(constraint hole_size (min 0.15mm) (max 6.3mm))
+)
+
+(rule "JLCPCB: Via Hole Size"
+	(condition "A.Type == 'Via'")
+	(constraint hole_size (min 0.15mm))
+)
+
+(rule "JLCPCB: Via Annular Ring"
+	(condition "A.Type == 'Via'")
+	(constraint annular_width (min 0.05mm))
+)
+
+# Comment out if extra cost is OK.
+(rule "JLCPCB: Via diameter < 0.45mm with hole < 0.3mm adds extra cost"
+	(condition "(A.Type == 'Via') && (A.Hole < 0.3mm)")
+	(constraint via_diameter (min 0.45mm))
+)
+
+(rule "JLCPCB: PTH Hole Size"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.isPlated()")
+	(constraint hole_size (min 0.15mm) (max 6.3mm))
+)
+
+(rule "JLCPCB: NPTH Hole Size"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated()")
+	(constraint hole_size (min 0.5mm))
+)
+
+(rule "JLCPCB: Castellated Hole Size"
+	(condition "A.Type == 'Pad' && A.Fabrication_Property == 'Castellated pad'")
+	(constraint hole_size (min 0.5mm))
+)
+
+(rule "JLCPCB: PTH Annular Ring"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.isPlated()")
+	(constraint annular_width (min 0.18mm))
+)
+
+(rule "JLCPCB: NPTH Annular Ring"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated()")
+	(constraint annular_width (min 0.45mm))
+)
+
+# An expensive 4-Wire Kelvin Test is auto-added for holes < 0.3mm with diameter <= 0.4mm.
+(rule "JLCPCB: Avoid 4-Wire Kelvin Test"
+	(condition "(A.Type == 'Via' && A.Hole < 0.3mm && A.Diameter <= 0.4mm) || (A.Type == 'Pad' && ((A.Hole_Size_X < 0.3mm && A.Size_X <= 0.4mm) || (A.Hole_Size_Y < 0.3mm && A.Size_Y <= 0.4mm)))")
+	(constraint annular_width (min 0.125mm))
+)
+
+
+# --- Pad Size ---
+
+# JLCPCB's hard lower limit for an SMD pad. Their recommended
+# minimum is larger; this only catches pads the fab cannot make.
+(rule "JLCPCB: SMD Pad Size"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'SMD' && (A.Size_X < 0.125mm || A.Size_Y < 0.125mm)")
+	(constraint assertion "A.Size_X >= 0.125mm && A.Size_Y >= 0.125mm")
+)
+
+
+# --- VIA Support Rules ---
+
+(rule "JLCPCB: Only Throughhole VIAs are supported"
+	(condition "A.Type == 'Via'")
+	(constraint assertion "!(A.isBlindBuriedVia() || A.isMicroVia())")
+)
+
+
+# --- Slot Width ---
+
+(rule "JLCPCB: Plated Slot Width"
+	(condition "A.Type == 'Pad' && (A.Hole_Size_X != A.Hole_Size_Y) && A.isPlated()")
+	(constraint hole_size (min 0.5mm))
+)
+
+# JLCPCB: "The length of the slot should be at least 2 times of the width."
+(rule "JLCPCB: Plated Slot Length-to-width Ratio"
+	(condition "(A.Type == 'Pad')")
+	(constraint assertion "(A.Hole_Size_X == A.Hole_Size_Y) || (A.Hole_Size_X >= (2 * A.Hole_Size_Y)) || (A.Hole_Size_Y >= (2 * A.Hole_Size_X))")
+)
+
+(rule "JLCPCB: Non-Plated Slot Width"
+	(condition "A.Type == 'Pad' && (A.Hole_Size_X != A.Hole_Size_Y) && !A.isPlated()")
+	(constraint hole_size (min 1.0mm))
+)
+
+
+# --- Minimum Clearance ---
+
+(rule "JLCPCB: Via Hole to Via Hole Clearance (Different Nets)"
+	(condition "A.Type == 'Via' && B.Type == 'Via' && A.Net != B.Net")
+	(constraint hole_to_hole (min 0.2mm))
+)
+
+(rule "JLCPCB: Pad Hole to Pad Hole Clearance (Pad with Hole, Different Nets)"
+	(condition "A.Type == 'Pad' && (A.Pad_Type == 'Through-hole' || A.Pad_Type == 'NPTH, mechanical') && B.Type == 'Pad' && (B.Pad_Type == 'Through-hole' || B.Pad_Type == 'NPTH, mechanical') && A.Net != B.Net")
+	(constraint hole_to_hole (min 0.45mm))
+)
+
+# NOTE: KiCad applies the LAST matching rule, so the general "implied" rules below
+# must come before the specific ones they would otherwise override.
+
+# NOTE: This is not stated specifically, but is implied by other rules.
+(rule "JLCPCB: Via/Pad to Via/Pad Clearance (Different Nets)"
+	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net != B.Net")
+	(constraint clearance (min 0.127mm))
+)
+
+# NOTE: This is not stated specifically, but is implied by other rules.
+(rule "JLCPCB: Via/Pad Hole to Via/Pad Hole Clearance (Same Net)"
+	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (B.Type == 'Pad' || B.Type == 'Via') && A.Net == B.Net")
+	(constraint hole_to_hole (min 0.254mm))
+)
+
+# NOTE: Inferred from the pad-to-pad hole figure; not documented by the fab.
+# A via and a plated pad on different nets are covered by neither the
+# via-to-via nor the pad-to-pad hole spacing rule; the pair involves a pad
+# hole, so the pad figure applies.
+(rule "JLCPCB: Via Hole to Pad Hole Clearance (Different Nets, inferred)"
+	(condition "((A.Type == 'Via' && B.Type == 'Pad') || (A.Type == 'Pad' && B.Type == 'Via')) && A.Net != B.Net")
+	(constraint hole_to_hole (min 0.45mm))
+)
+
+# Specific rule: must sit after the general clearance rule above to take effect.
+(rule "JLCPCB: Pad to Pad Clearance (Pad without Hole, Different Nets)"
+	(condition "A.Type == 'Pad' && (A.Pad_Type != 'Through-hole' && A.Pad_Type != 'NPTH, mechanical') && B.Type == 'Pad' && (B.Pad_Type != 'Through-hole' && B.Pad_Type != 'NPTH, mechanical') && A.Net != B.Net")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "JLCPCB: Via to Trace"
+	(condition "A.Type == 'Via' && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+(rule "JLCPCB: PTH to Trace"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.isPlated() && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.28mm))
+)
+
+(rule "JLCPCB: NPTH to Trace"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated() && B.Type == 'Track'")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+(rule "JLCPCB: NPTH to Copper (non-Track)"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, mechanical' && !A.isPlated() && B.Type != 'Track'")
+	(constraint hole_clearance (min 0.2mm))
+)
+
+(rule "JLCPCB: Pad to Trace"
+	(condition "A.Type == 'Pad' && (A.Pad_Type == 'Through-hole' || A.Pad_Type == 'NPTH, mechanical') && B.Type == 'Track' && A.Net != B.Net")
+	(constraint clearance (min 0.2mm))
+)
+
+# BGA fan-out clearance. Assign BGA fan-out nets to a 'BGA' net class.
+(rule "JLCPCB: BGA to Trace"
+	(condition "A.NetClass == 'BGA' && B.Type == 'Track' && A.Net != B.Net")
+	(constraint clearance (min 0.1mm))
+)
+
+
+# --- Minimum Trace Width and Spacing ---
+
+(rule "JLCPCB: Trace Width"
+	(condition "A.Type == 'Track'")
+	(constraint track_width (min 0.1mm))
+)
+
+(rule "JLCPCB: Trace Spacing"
+	(condition "A.Type == 'Track' && B.Type == 'Track'")
+	(constraint clearance (min 0.1mm))
+)
+
+# As of KiCad 9.0.8, this incorrectly flags any kind of connection
+# between tracks (even if the track continues straight on and is just
+# split into two parts with "Break Track").
+# (rule "JLCPCB: Same-net Trace Spacing"
+# 	(condition "A.Type == 'Track' && B.Type == 'Track'")
+# 	(constraint physical_clearance (min 0.25mm))
+# )
+
+
+# --- Impedance-Controlled Net Classes ---
+#
+# WARNING: trace width/gap for a target impedance depend on YOUR stackup
+# (dielectric height, Dk, copper weight). The values below are typical
+# starting points for JLCPCB's default stackup — verify against
+# JLCPCB's impedance calculator for your actual order. Constraints use
+# (opt ...) so they guide the router without raising nuisance DRC errors;
+# tighten to (min/max) once tuned. Assign nets to these classes in
+# Board Setup > Net Classes.
+
+(rule "JLCPCB: 50R Single-Ended"
+	(condition "A.NetClass == '50R'")
+	(constraint track_width (opt 0.2mm))
+)
+
+(rule "JLCPCB: 60R_Diff Differential Pair"
+	(condition "A.NetClass == '60R_Diff'")
+	(constraint track_width (opt 0.3mm))
+	(constraint diff_pair_gap (opt 0.15mm))
+)
+
+(rule "JLCPCB: 90R_Diff Differential Pair"
+	(condition "A.NetClass == '90R_Diff'")
+	(constraint track_width (opt 0.2mm))
+	(constraint diff_pair_gap (opt 0.13mm))
+)
+
+(rule "JLCPCB: 100R_Diff Differential Pair"
+	(condition "A.NetClass == '100R_Diff'")
+	(constraint track_width (opt 0.2mm))
+	(constraint diff_pair_gap (opt 0.2mm))
+)
+
+(rule "JLCPCB: 120R_Diff Differential Pair"
+	(condition "A.NetClass == '120R_Diff'")
+	(constraint track_width (opt 0.15mm))
+	(constraint diff_pair_gap (opt 0.2mm))
+)
+
+
+# --- Legend ---
+
+(rule "JLCPCB: Minimum Line Width"
+	(layer "?.SilkS")
+	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
+	(constraint text_thickness (min 0.15mm))
+)
+
+(rule "JLCPCB: Minimum Text Height"
+	(layer "?.SilkS")
+	(condition "A.Type == 'Text' || A.Type == 'Text Box'")
+	(constraint text_height (min 1mm))
+)
+
+(rule "JLCPCB: Pad to Silkscreen"
+	(condition "A.Type == 'Pad' && ((A.existsOnLayer('F.Mask') && B.Layer == 'F.SilkS') || (A.existsOnLayer('B.Mask') && B.Layer == 'B.SilkS'))")
+	(constraint silk_clearance (min 0.15mm))
+)
+
+
+# --- Board Outlines ---
+
+(rule "JLCPCB: Trace to Board Edge"
+	(condition "A.Type == 'Track'")
+	(constraint edge_clearance (min 0.2mm))
+)

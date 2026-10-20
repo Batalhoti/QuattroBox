@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PCM_Diode_TVS_AKL_local")(type "KiCad")(uri "${KIPRJMOD}/libs/PCM_Diode_TVS_AKL_local.kicad_sym")(options "")(descr "Localized"))
+	(lib (name "easyeda2kicad_local")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda2kicad_local.kicad_sym")(options "")(descr "Localized"))
+)
